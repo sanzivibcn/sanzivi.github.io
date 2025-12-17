@@ -3,37 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contacto – Reformas Sanzivi</title>
+<title>Contacto – Sanzivi</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
 <header>
-  <h1>Contacto</h1>
-  <nav>
-    <a href="index.html">Inicio</a>
-    <a href="servicios.html">Servicios</a>
-    <a href="contacto.html">Contacto</a>
-  </nav>
+  <div class="logo">SANZIVI</div>
 </header>
 
-<section>
-  <h2>Formulario de Contacto</h2>
+<section class="bloque">
+  <h1>Contacto</h1>
+  <p>Cuéntanos tu proyecto y te asesoramos sin compromiso.</p>
+
   <form action="https://formspree.io/f/xnqeknzn" method="POST">
-    <label>Nombre:</label>
-    <input type="text" name="nombre" required>
-
-    <label>Email:</label>
-    <input type="email" name="email" required>
-
-    <label>Mensaje:</label>
-    <textarea name="mensaje" required></textarea>
-
+    <input type="text" name="nombre" placeholder="Nombre" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="mensaje" placeholder="Describe tu proyecto" required></textarea>
     <button type="submit">Enviar</button>
   </form>
 </section>
 
 <footer>
-  © 2025 Reformas Sanzivi
+  © 2025 Sanzivi
 </footer>
+
 </body>
 </html>
